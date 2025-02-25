@@ -1,1 +1,168 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Kumar - Publishing the Best Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1e1e2e;
+            color: white;
+        }
+        .header {
+            background: #16162d;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #f8c291;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #252545;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        .nav a:hover {
+            background: #f8c291;
+            color: black;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .app-card {
+            background: #2e2e4e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .app-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .app-info h2 {
+            margin: 10px 0;
+            color: #f8c291;
+        }
+        .app-info p {
+            color: #d1d1e0;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download-button:hover {
+            background: #ff4d4d;
+        }
+        .footer {
+            background: #16162d;
+            padding: 20px;
+            text-align: center;
+            color: #f8c291;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .app-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .app-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Harshit Kumar</div>
+    <div class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/apps.html">Our Apps</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <div class="app-grid">
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/81pmuVRiGfL._AC_UL320_.png" alt="Cric Score">
+                <div class="app-info">
+                    <h2>Cric Score</h2>
+                    <p>Stay updated with live cricket scores from matches around the world.</p>
+                    <a class="download-button" href="https://www.amazon.in/Cric-Score-Live-Cricket-Scores/dp/B0BSG9D9XQ" target="_blank">Download for Free</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/71CGxOXTxPL._AC_UL320_.png" alt="Multiplication Tables">
+                <div class="app-info">
+                    <h2>Multiplication Tables</h2>
+                    <p>Practice multiplication facts with interactive tools.</p>
+                    <a class="download-button" href="https://www.amazon.in/Harshit-Kumar-Multiplication-Tables-Learn/dp/B0CY53M5KQ" target="_blank">Download for Free</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/51u4TJ2gYrL._AC_UL320_.png" alt="Rock Paper Scissors">
+                <div class="app-info">
+                    <h2>Rock Paper Scissors</h2>
+                    <p>A digital adaptation of the classic hand game.</p>
+                    <a class="download-button" href="https://www.amazon.in/Harshit-Kumar-Publishing-Paper-Scissors/dp/B0CW183LN6" target="_blank">Download for Free</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/51+EsWGWoLL.png" alt="Chatoid">
+                <div class="app-info">
+                    <h2>Chatoid!</h2>
+                    <p>Chatoid is a user-friendly mobile application that simplifies global communication through straightforward chatting features</p>
+                    <a class="download-button" href="https://www.amazon.in/Chatoid-Chat-All-Around-Globe/dp/B0CY4YZFFG/" target="_blank">Download for Free</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/41iutLYGi7L._AC_UL320_.png" alt="Weatheroni!">
+                <div class="app-info">
+                    <h2>Weatheroni</h2>
+                    <p>A digital app to show real-time weather forecast.</p>
+                    <a class="download-button" href="https://www.amazon.in/Harshit-Kumar-Publishing-Weatheroni/dp/B0CV7T9H7L" target="_blank">Download for Free</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <img src="https://m.media-amazon.com/images/I/61D69E2TU0L._AC_UL320_.png" alt="Calc">
+                <div class="app-info">
+                    <h2>Calc</h2>
+                    <p>A digital calculator allowing you to multiply numbers on the go!</p>
+                    <a class="download-button" href="https://www.amazon.in/Digital-Apps-Calc-simple-calculator/dp/B0BHDMJNS3/" target="_blank">Download for Free</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2025 Harshit Kumar | All Rights Reserved
+    </div>
+</body>
+</html>
