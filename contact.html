@@ -1,1 +1,121 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Kumar - Publishing the Best Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1e1e2e;
+            color: white;
+        }
+        .header {
+            background: #16162d;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #f8c291;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #252545;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        .nav a:hover {
+            background: #f8c291;
+            color: black;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .app-card {
+            background: #2e2e4e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .app-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .app-info h2 {
+            margin: 10px 0;
+            color: #f8c291;
+        }
+        .app-info p {
+            color: #d1d1e0;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download-button:hover {
+            background: #ff4d4d;
+        }
+        .footer {
+            background: #16162d;
+            padding: 20px;
+            text-align: center;
+            color: #f8c291;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .app-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .app-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Harshit Kumar</div>
+    <div class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/apps.html">Our Apps</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+      <h3>Business Support: mailtomadhulika@gmail.com</h3>
+    <br>
+      <h3>App Technical Support: harshit2k9@gmail.com</h3>
+    <div class="footer">
+        &copy; 2025 Harshit Kumar | All Rights Reserved
+    </div>
+</body>
+</html>
